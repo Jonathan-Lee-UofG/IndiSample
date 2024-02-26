@@ -5,6 +5,7 @@ IMPORTANT:
 When running this code, set your cwd (setcwd(<PATH>)) to somewhere you're happy for it to very much make it's own, ideally a bespoke directory. The program will download datasets as needed, which can take a while, especially the OS ones.
 
 To produce the graphs of air pollution:
-1. set the cwd somewhere appropriate. "setwd(<YOUR_PATH_HERE>)"
-2. import the package. "devtools::install_github('Jonathan-Lee-UofG/IndiSample')".
-3. run "makeAllAirPolPlots()" and wait. The first run will take a bit, since it'll have to download and process stuff.
+1. import the package. "devtools::install_github('Jonathan-Lee-UofG/IndiSample')".
+2. set the cwd somewhere appropriate. "setwd(<YOUR_PATH_HERE>)"
+3. load the package. "library(IndiSample)"
+4. run "makeAllAirPolPlots()" and wait. The first run will take a bit, since it'll have to download and process stuff.
