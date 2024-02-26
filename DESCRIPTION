@@ -1,0 +1,10 @@
+Package: IndiSample
+Type: Package
+Title: Indicator Sampling for Glasgow Administrative Areas
+Version: 0.1.1
+Author: Jonathan Lee
+Maintainer: 2704154L@student.gla.ac.uk
+Description: This package represents a pipeline for mapping arbitrary spatial data onto administrative zones within Glasgow. Currently, this is only set up to do so for air pollution, but it can be extended as needed.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
