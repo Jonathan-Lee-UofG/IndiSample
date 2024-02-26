@@ -6,5 +6,5 @@ When running this code, set your cwd (setcwd(<PATH>)) to somewhere you're happy 
 
 To produce the graphs of air pollution:
 1. set the cwd somewhere appropriate.
-2. import the package.
+2. import the package. "devtools::install_github('https://github.com/Jonathan-Lee-UofG/IndiSample')".
 3. run "makeAllAirPolPlots()" and wait. The first run will take a bit, since it'll have to download and process stuff.
