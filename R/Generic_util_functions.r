@@ -100,8 +100,8 @@ createDEFRARasterFromDataframe <- function(data,outPath,dataField){
 #for each polygon to derive its mean value, which is written to the fieldname
 #specified. Returns the modified polygons.
 
-joinOnRasterData <- function(raster,polys,field){
-  polys[field] <- exact_extract(raster,polys,"mean")
+joinOnRasterData <- function(raster,polys,field,mode="mean"){
+  polys[field] <- exact_extract(raster,polys,mode)
   return(polys)
 }
 
