@@ -39,3 +39,9 @@ makeHeatDemandWardPlots <- function(){
   
   makeHeatDemandPlots(pdz,"wards","Electoral Ward",totUnit="Mwh")
 }
+
+makeAllHeatDemandPlots <- function(){
+  makeHeatDemandDatazonePlots()
+  makeHeatDemandRegionDatazonePlots()
+  makeHeatDemandWardPlots()
+}
